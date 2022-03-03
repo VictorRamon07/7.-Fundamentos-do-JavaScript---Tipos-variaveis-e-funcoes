@@ -1,0 +1,23 @@
+// declaração de função
+
+// function minhaFuncao() {
+//     //bloco de código
+// }
+
+// minhaFuncao("param");
+
+// expressão de função
+
+// console.log(soma(1, 2));
+
+// diferença principal: HOISTING
+// funções e var são "listadas" no topo do arquivo. 
+
+console.log(apresentar());
+
+function apresentar(){
+    return "Olá";
+}
+
+const soma = function (num1, num2) { return num1 + num2 }
+console.log(soma(2,2));
